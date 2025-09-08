@@ -16,6 +16,7 @@
         <!-- Oldal címe -->
         <header class="d-flex align-items-center justify-content-center p-3">
             <h1 class="text-white display-4">Café Aroma</h1>
+            
         </header>
 
         <!-- Menü -->
@@ -28,6 +29,9 @@
                     <a class="nav-link" href="#menu">Menü</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kapcsolat</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#location">Elhelyezkedés</a>
                 </li>
             </ul>
@@ -36,40 +40,46 @@
         <!-- Bemutatkozás -->
         <article class="p-3">
             <h2 class="my-4">Üdvözöljük a Café Aromában!</h2>
-            <div>
-
+            <div class="text-justify">
+                <div class="d-flex">
+                    <p >Szeged szívében található egyedülálló kávézónkban, ahol a kávézás élményét új szintre emeljük. 2005 óta szolgáljuk ki a kávé szerelmeseit, akik igazi minőségre és különleges ízekre vágynak. Családias hangulatunkkal és barátságos kiszolgálásunkkal igyekszünk minden vendégünknek otthonos érzést nyújtani.<br>
+                    A Café Aroma több mint csak egy kávézó. Itt találkozási pontot kínálunk a helyi közösség számára, ahol barátok találkozhatnak,családok tölthetnek el kellemes órákat, vagy akár üzleti találkozók helyszíne is lehet. Büszkék vagyunk rá, hogy válogatott, prémiumminőségű kávéinkkal és kézzel készített süteményeinkkel kényeztethetjük vendégeinket.<br></p>
+                    <img class="w-50 p-2" src="images/interior.jpg" alt="Café Aroma" title="Café Aroma kávézó">
+                </div>
+                <p>Kínálatunkban a klasszikus espresso és cappuccino mellett számos modern kávékülönlegesség is megtalálható, mint például a jeges kávékés szezonális ízesítésű latték. Mindezek mellett vegán vendégeinket is szeretettel várjuk vegán süteményválasztékunkkal, amelyeketmindig frissen, helyi alapanyagokból készítünk.<br>
+                A Café Aroma tökéletes hely a kikapcsolódásra, ahol a kávézás rituáléja egyesül a modern gasztronómiai élményekkel. Látogasson elhozzánk, és engedje, hogy elvarázsoljuk az ízlelőbimbóit, miközben élvezi a kávézónk nyújtotta meghitt atmoszférát.</p>
             </div>
 
             <!-- Menü -->
             <h2 id="menu" class="my-4">Menünk</h2>
-            <div>
-                <div>
+            <div class="row text-justify">
+                <div class="col-xl-4 col-md-6">
                     <h4>Espresso</h4>
-                    <p><span >Prémium minőségű kávébabok:</span> Kizárólag magas minőségű,
+                    <p><strong >Prémium minőségű kávébabok:</strong> Kizárólag magas minőségű,
                         gondosan válogatott arabica babokból készül, amelyeket a világ legjobb termőterületeiről
                         szerezünk be. Ezek a babok rendkívüli ízgazdagságot és aromát biztosítanak. </p>
-                    <p><span>Kézműves pörkölés:</span> A kávébabokat helyben, kis tételben,
+                    <p><strong>Kézműves pörkölés:</strong> A kávébabokat helyben, kis tételben,
                         kézműves módszerrel pörköljük, ami lehetővé teszi, hogy minden egyes bab a lehető
                         legtökéletesebb ízprofilját fejthesse ki. A pörkölési folyamat során különös figyelmet fordítunk
                         arra, hogy a babok egyenletesen pörkölődjenek, így biztosítva az espresso minden csészéjének
                         tökéletes ízharmoniáját. </p>
 
                 </div>
-                <div>
+                <div class="col-xl-4 col-md-6">
                     <h4>Cappuccino</h4>
-                    <p><span>Gazdag ízvilág:</span> A cappuccino egy klasszikus olasz
+                    <p><strong>Gazdag ízvilág:</strong> A cappuccino egy klasszikus olasz
                         kávékülönlegesség, amely egyenlő részekből áll espressóból, meleg tejhabból és gőzölt tejfölből.
                         Az ízletes espresso alapjának és a lágy tejkomponensek harmonikus összeolvadása tökéletes
                         reggeli italt teszi belőle. </p>
-                    <p><span>Egyedi élmény:</span> Minden csésze cappuccino egyedi, a barista
+                    <p><strong>Egyedi élmény:</strong> Minden csésze cappuccino egyedi, a barista
                         szakértelmétől függően. Az ital tetejére gyakran színes mintákat, például szíveket vagy
                         leveleket alkotnak a tejhabbal, ami nemcsak ízében, de látványában is maradandó élményt nyújt.
                     </p>
                 </div>
-                <div>
+                <div class="col-xl-4 col-md-6">
                     <h4>Kávé árlista</h4>
                     <table class="table">
-                        <thead>
+                        <thead class="bg-dark text-white">
                             <tr>
                                 <th>Kávé típusa</th>
                                 <th>Ár</th>
@@ -89,6 +99,10 @@
                                 <td>600 Ft</td>
                             </tr>
                             <tr>
+                                <td>Latte Macchiato</td>
+                                <td>650 Ft</td>
+                            </tr>
+                            <tr>
                                 <td>Flat White</td>
                                 <td>700 Ft</td>
                             </tr>
@@ -98,30 +112,35 @@
             </div>
 
             <!-- Elérhetőségek -->
+            <h2 id="contact" class="my-4">Elérhetőségek</h2>
+            
 
-
-            <div class="row">
+            <div class="row d-flex justify-content-between mx-2">
                 <div>
-                    Üzemeltető: Horváth Anna
-                    Cím: 6720 Szeged, Kávé utca 1.
-                    Telefonszám: +36 20 555 1234
-                    Email: info@cafe-arroma.hu
+                    <ul>
+                    <li>Üzemeltető: Horváth Anna</li>
+                        <li>Cím: 6720 Szeged, Kávé utca 1.</li>
+                        <li>Telefonszám: +36 20 555 1234</li>
+                        <li>Email: info@cafe-arroma.hu</li>
+                    </ul>
+                    
                 </div>
                 <!-- Üzenetküldő űrlap -->
-                <div>
+                <div class="urlap">
                     <form>
-                        <div class="form-group">
+                        <div class="form-group ">
                             <label for="name">Név:</label>
-                            <input type="text" id="name" required>
+                            <input class="form-control" type="text" id="name" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Üzenet:</label>
-                            <textarea id="message" rows="3" required></textarea>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Küldés</button>
                     </form>
                 </div>
             </div>
+            
 
         </article>
         <!-- Elhelyezkedés -->
@@ -137,7 +156,7 @@
         </div>
         <!-- Lábléc -->
         <footer class="p-2">
-
+            <p>Készítette: <a href="https://bankitatabanya.hu/">Roncsek Dávid</a></p>
         </footer>
     </div>
 </body>

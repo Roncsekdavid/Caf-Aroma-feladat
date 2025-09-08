@@ -10,6 +10,7 @@ header {
     background-size: cover;  
     align-items: center; 
     justify-content: center; 
+    background-image: url(images/coffee_beans.jpg);
 }
 
 
@@ -40,4 +41,11 @@ h1, h2, h4 {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.urlap{
+    border: 1px blue solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
 }
